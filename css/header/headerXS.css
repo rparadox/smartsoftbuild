@@ -1,0 +1,97 @@
+@media (min-width: 340px) and (max-width: 576px) {
+    header {
+        width: 100%;
+        height: 64px;
+        background: white;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 24px;
+        padding-right: 16px;
+        border: 2px solid #495057;
+        position: relative;
+    }
+
+    header > h1 {
+        font-size: 1.5rem;
+        font-family: "SF Bold","Helvetica Bold", sans-serif;
+        justify-self: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    header > h1 > a {
+        font-family: "SF Bold","Helvetica Bold", sans-serif;
+        text-decoration: none;
+        color: #032B43;
+    }
+
+    header > i {
+        font-size: 2rem;
+        color: #495057;
+        cursor: pointer;
+    }
+
+    header > a {
+        font-family: "SF Medium","Helvetica Bold", sans-serif;
+        font-size: 1rem;
+        text-decoration: none;
+        color: #D00000;
+        border: 2px solid #D00000;
+        padding: 7px 21px;
+        transition: all 300ms linear;
+    }
+
+    header > a:hover {
+        background: #D00000;
+        color: white;
+    }
+}
+
+@media (max-width: 340px) {
+    header {
+        height: 64px;
+        background: white;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 24px;
+        padding-right: 16px;
+        border: 2px solid #495057;
+    }
+
+    header > h1 {
+        font-size: 1.5rem;
+        font-family: "Helvetica Bold", sans-serif;
+        justify-self: center;
+    }
+
+    header > h1 > a {
+        text-decoration: none;
+        color: #032B43;
+    }
+
+    header > i {
+        font-size: 2rem;
+        color: #495057;
+    }
+
+    header > a {
+        font-size: 1rem;
+        font-family: Helvetica, sans-serif;
+        text-decoration: none;
+        color: #D00000;
+        border: 2px solid #D00000;
+        padding: 7px 21px;
+
+    }
+
+    header > a:hover {
+        background: #D00000;
+        color: white;
+    }
+}

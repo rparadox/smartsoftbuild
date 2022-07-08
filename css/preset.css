@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 1px;
+    background-color: white;
+    position: relative;
+}
+
+@font-face {
+    font-family: Helvetica;
+    src: url("../fonts/Helvetica/regular/Helvetica.ttf");
+    src: url("../fonts/Helvetica/regular/Helvetica.eot");
+    src: url("../fonts/Helvetica/regular/Helvetica.woff");
+    src: url("../fonts/Helvetica/regular/Helvetica.woff2");
+}
+
+@font-face {
+    font-family: "Helvetica Bold";
+    src: url("../fonts/Helvetica/regular/Helvetica.ttf");
+    src: url("../fonts/Helvetica/regular/Helvetica.eot");
+    src: url("../fonts/Helvetica/regular/Helvetica.woff");
+    src: url("../fonts/Helvetica/regular/Helvetica.woff2");
+}
+
+@font-face {
+    font-family: "SF Bold";
+    src: url("../fonts/SFProDisplay/bold/SFProDisplay-Bold.ttf");
+    src: url("../fonts/SFProDisplay/bold/SFProDisplay-Bold.eot");
+    src: url("../fonts/SFProDisplay/bold/SFProDisplay-Bold.woff");
+    src: url("../fonts/SFProDisplay/bold/SFProDisplay-Bold.woff2");
+}
+
+@font-face {
+    font-family: "SF Medium";
+    src: url("../fonts/SFProDisplay/medium/SFProDisplay-Medium.ttf");
+    src: url("../fonts/SFProDisplay/medium/SFProDisplay-Medium.eot");
+    src: url("../fonts/SFProDisplay/medium/SFProDisplay-Medium.woff");
+    src: url("../fonts/SFProDisplay/medium/SFProDisplay-Medium.woff2");
+}
+
+@font-face {
+    font-family: "SF Regular";
+    src: url("../fonts/SFProDisplay/regular/SFProDisplay-Regular.ttf");
+    src: url("../fonts/SFProDisplay/regular/SFProDisplay-Regular.eot");
+    src: url("../fonts/SFProDisplay/regular/SFProDisplay-Regular.woff");
+    src: url("../fonts/SFProDisplay/regular/SFProDisplay-Regular.woff2");
+}

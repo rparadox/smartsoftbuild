@@ -1,0 +1,54 @@
+@media (min-width: 1200px) {
+    section#projects {
+        width: 100%;
+        padding: 0 40px;
+        margin-bottom: 48px;
+    }
+
+    section#projects > h3 {
+        color: #212529;
+        font-size: 1.75rem;
+        font-family: "SF Bold","Helvetica Bold", sans-serif;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    section#projects > div {
+        width: 100%;
+    }
+
+    section#projects > div > div {
+        width: 100%;
+        box-shadow: 0 6px 24px rgba(0, 0, 0, 8%);
+    }
+
+    section#projects > div > div > div:nth-of-type(1) {
+        width: 100%;
+    }
+
+    section#projects > div > div > div:nth-of-type(1) > img {
+        width: 100%;
+        border-radius: 4px 4px 0 0;
+    }
+
+    .text {
+        width: 100%;
+        padding: 8px 16px;
+    }
+
+    .text > span:nth-of-type(1) {
+        display: block;
+        font-family: "SF Bold","Helvetica Bold", sans-serif;
+        font-weight: bold;
+        font-size: 1.25rem;
+        margin-bottom: 8px;
+    }
+
+    .text > span:nth-of-type(2) {
+        display: block;
+        font-family: "SF Regular",Helvetica, sans-serif;
+        font-size: 1rem;
+    }
+
+}

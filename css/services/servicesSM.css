@@ -1,0 +1,55 @@
+@media (min-width: 576px) and (max-width: 768px) {
+    section#services {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    section#services > h3 {
+        color: #212529;
+        font-size: 1.75rem;
+        font-family: "SF Bold","Helvetica Bold", sans-serif;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    section#services > section {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+    }
+
+    section#services > section > div {
+        width: 25%;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        margin-bottom: 16px;
+        cursor: pointer;
+    }
+
+    section#services > section > div > picture {
+        width: 70%;
+        border-radius: 50%;
+    }
+
+    section#services > section > div > picture > img {
+        width: 100%;
+        display: block;
+        border-radius: 50%;
+        margin-bottom: 8px;
+        transition: all 500ms linear;
+    }
+
+    section#services > section > div:hover > picture > img {
+        border: 4px dotted #FFBA08;
+    }
+
+    section#services > section > div > span {
+        display: block;
+        color: #495057;
+        font-size: 1rem;
+        font-family: "SF Regular",Helvetica, sans-serif;
+        text-align: center;
+    }
+}

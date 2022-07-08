@@ -1,0 +1,48 @@
+@media (min-width: 992px) and (max-width: 1200px){
+    header {
+        width: 100%;
+        padding: 16px;
+        position: relative;
+    }
+
+    header > i {
+        display: none;
+        position: absolute;
+        left: -500%;
+    }
+
+    header > i::before {
+        display: none;
+    }
+
+    header > h1 {
+        font-family: "SF Bold","Helvetica Bold", sans-serif;
+        font-weight: bold;
+    }
+
+    header > h1 > a {
+        font-family: "SF Bold","Helvetica Bold", sans-serif;
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: #032B43;
+    }
+
+    header > a {
+        font-family: "SF Medium","Helvetica Bold", sans-serif;
+        color: #D00000;
+        font-size: 1rem;
+        padding: 8px 40px;
+        border: 2px solid #D00000;
+        float: right;
+        position: absolute;
+        top: 16px;
+        right: 24px;
+        text-decoration: none;
+        transition: all 300ms linear;
+    }
+
+    header > a:hover {
+        color: whitesmoke;
+        background-color: #D00000;
+    }
+}

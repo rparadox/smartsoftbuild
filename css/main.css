@@ -1,0 +1,11 @@
+@import "preset.css";
+@import "header/header.css";
+@import "menu/menu.css";
+@import "events/events.css";
+@import "services/services.css";
+@import "fancy-box/fancy-box.css";
+@import "team/team.css";
+@import "projects/projects.css";
+@import "about/about.css";
+@import "contact/contact.css";
+@import "footer/footer.css";

@@ -1,0 +1,96 @@
+@media (min-width: 769px) and (max-width: 992px) {
+    section.events {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    section.events > h3 {
+        font-size: 1.5rem;
+        color: white;
+        background-color: #136F63;
+        font-family: "Helvetica Bold", sans-serif;
+        font-weight: bold;
+        text-align: center;
+        padding: 8px;
+    }
+
+    .swiper {
+        width: 100%;
+        height: 300px;
+    }
+
+    .swiper-slide {
+        width: 100%;
+        height: 100%;
+        padding: 0 24px;
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    .swiper-slide picture {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .swiper-button-next {
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        color: #000;
+        border-radius: 50%;
+        box-shadow: -2px 2px 4px rgba(0, 0, 0, 25%);
+    }
+
+    .swiper-button-next > i {
+        transform: rotate(90deg);
+        font-size: 2rem;
+        color: #495057;
+        position: absolute;
+        left: 4px;
+    }
+
+    .swiper-button-prev > i {
+        transform: rotate(-90deg);
+        font-size: 2rem;
+        color: #495057;
+        position: absolute;
+        right: 4px;
+    }
+
+    .swiper-button-prev {
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        color: #000;
+        border-radius: 50%;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 25%);
+    }
+
+    .swiper-button-next::after, .swiper-button-prev::after {
+        opacity: 0;
+        z-index: 9999;
+    }
+}
